@@ -1,6 +1,6 @@
 #### zabbix-template-for-juniper-snmpv2
 2020-03-20 update
-* add TxLaserPower items，if you need monitor Tx please download "Juniper-optical-interface.-snpmv2-20200320.xml"
+* add TxLaserPower items，if you need monitor Tx please download "template-add_TxLaserPower.xml"
 * set TxLaserPower-Trigger threshold  on -10dbm or 0dbm,
 * added lsi-interfaces in to filters,you can change in filters seting page.   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
