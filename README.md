@@ -1,4 +1,10 @@
 #### zabbix-template-for-juniper-snmpv2
+2020-03-20 update
+* add TxLaserPower items，if you need monitor Tx please download "Juniper-optical-interface.-snpmv2-20200320 (1).xml"
+* set TxLaserPower-Trigger threshold  on -10dbm or 0dbm,
+* added lsi-interfaces in to filters,you can change in filters seting page.   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Based on Zabbix's official Template Net Juniper SNMPv2, only minor modifications have been made.
 * The interfaces in the down and shutdown states have been filtered. 
 * The virtual interfaces have also been filtered, (vme|lsi|pfe|pfh|\.0|bme|gr|gre|tap|irb|dsc|ipip|pimd|pime|mtun|em0|em1|em2|esi|jsrv|vtep|me|lt|ip|lc|ut|mt|vt|pe|cbp|ud|fxp|dem|pip|pp|et|ae)
