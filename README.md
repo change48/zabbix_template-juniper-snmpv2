@@ -21,7 +21,7 @@ It has been tested and can be used in juniper mx、ex、qfx series,and junos ver
 
 I haven't figured out how to chat on github，so my email is whye1700#gmail.com(replace # with @)
 
-Juniper-optical-interface是基于官方Template Net Juniper SNMPv2做了简单修改，中文环境用户可以使用Juniper-optical-interface-snmpv2-for-cn-user.xml
+Juniper-optical-interface是基于官方Template Net Juniper SNMPv2做了简单修改，中文环境用户可以使用template-for-cn-user.xml
 * 过滤了down、关闭状态的端口. 
 * 很多无用的虚接口也一起过滤了, 具体如下(vme|lsi|pfe|pfh|\.0|bme|gr|gre|tap|irb|dsc|ipip|pimd|pime|mtun|em0|em1|em2|esi|jsrv|vtep|me|lt|ip|lc|ut|mt|vt|pe|cbp|ud|fxp|dem|pip|pp|et|ae)
 * 触发器阈值设置为-19dbm和0dbm，这个-19是日常运维经验，可以根据需要灵活修改
